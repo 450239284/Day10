@@ -1,0 +1,15 @@
+--对分支进行了修改
+local MainScene = class("MainScene", function()
+    return display.newScene("MainScene")
+end)
+
+function MainScene:ctor()
+    cc.ui.UILabel.new({
+            UILabelType = 2, text = "Hello, World", size = 64})
+        :align(display.CENTER, display.cx, display.cy)
+        :addTo(self)
+end
+
+--添加分支B
+
+return MainScene
