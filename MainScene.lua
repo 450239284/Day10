@@ -10,6 +10,6 @@ function MainScene:ctor()
         :addTo(self)
 end
 
-
+--添加分支B
 
 return MainScene
