@@ -4,7 +4,7 @@ myTable = {
 	age = 20,
 	sexy = "girl"
 }
-
+123456
 function helloAdd( num1,num2 )		
 	return (num1+num2)
 end
