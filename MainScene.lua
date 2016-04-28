@@ -1,4 +1,4 @@
-
+--对分支进行了修改
 local MainScene = class("MainScene", function()
     return display.newScene("MainScene")
 end)
